@@ -2,6 +2,11 @@
 #include<string>
 using namespace std;
 
+/*
+Implement the myAtoi(string s) function, which converts a string to a 32-bit signed integer (similar to C/C++'s atoi function).
+More Info : https://leetcode.com/problems/string-to-integer-atoi/
+*/
+
 int myAtoi(string str) {
     int i = 0;
     int sign = 1;
